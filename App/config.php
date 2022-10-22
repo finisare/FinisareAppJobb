@@ -16,7 +16,7 @@ define(
 
 
 /******  DataBase --> Information ********/
-define( 'DB_HOST' , 'localhost' );  // 78.135.82.149
+define( 'DB_HOST' , 'DB_HOST' );  // 78.135.82.149
 define( 'DB_DATABASE' , 'DB_DATABASE' );
 define( 'DB_USERNAME' , 'DB_USERNAME' );
 define( 'DB_PASSWORD' , 'DB_PASSWORD' );
