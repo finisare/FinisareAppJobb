@@ -1,0 +1,154 @@
+.flex{
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.flexItem{
+  flex:1;
+
+  padding: 4px 4px 4px 4px;
+  margin: 4px 6px 2px 6px;
+}
+
+.flexRow{
+  flex-direction: row;
+  -webkit-flex-direction: row;
+
+  padding: 4px 4px 4px 4px;
+  margin: 4px 6px 2px 6px;
+}
+
+.flexRowReverse{
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.flexColumn{
+  flex-direction: column;
+  -webkit-flex-direction: column;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.flexColumnReverse{
+  flex-direction: column-reverse;
+  -webkit-flex-direction: column-reverse;
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.flexWrap{
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+
+  margin: 0px 2vh 0px 0px;
+}
+
+.flexWrapNo{
+  flex-wrap:nowrap;
+  -webkit-flex-wrap: nowrap;
+
+  margin: 0px 2vh 0px 0px;
+}
+
+.flexWrapReverse{
+  flex-wrap:wrap-reverse;
+  -webkit-flex-wrap: wrap-reverse;
+
+  margin: 0px 2vh 0px 0px;
+}
+
+@media ( max-width:760px ) {
+
+    .flexItem{
+      /*
+      padding: 0.7vh 1.1vh 0.7vh 1.1vh;
+      margin: 0.4vh 0.3vh 0.2vh 0.5vh;
+      */
+      padding: 5px;
+      margin: 5px;
+    }
+
+    .flexRow{
+      /*
+      padding: 0.4vh 0.3vh 0px 0.4vh;
+      margin: 0.4vh 0.2vh 0.2vh 0.4vh; */
+
+      flex-direction: column;
+
+      padding: 3px;
+      margin: 3px;
+    }
+
+    .flexColumn{
+      padding: 0px;
+      margin: 0px;
+    }
+}
+
+/* objectFitScaleDown */
+.objectFitScaleDown{
+  object-fit:scale-down;
+}
+.objectFitContain{
+  object-fit:contain;
+}
+.objectFitCover{
+  object-fit:cover;
+}
+.objectFitFill{
+  object-fit:fill;
+}
+.objectFitNone{
+  object-fit:none;
+}
+/* objectFitScaleDown */
+
+/* justify-content */
+.justifyContentFlexStart{
+  justify-content: flex-start;
+}
+.justifyContentFlexEnd{
+  justify-content: flex-end;
+}
+.justifyContentCenter{
+  justify-content: center;
+}
+.justifyContentSpaceBetween{
+  justify-content: space-between;
+}
+.justifyContentSpaceAround{
+  justify-content: space-around;
+}
+.justifyContentSpaceEvenly{
+  justify-content: space-evenly;
+}
+/* justify-content */
+
+/* align-items */
+.alignItemsFlexStart{
+  align-items: flex-start;
+}
+.alignItemsFlexEnd{
+  align-items: flex-end;
+}
+.alignItemsCenter{
+  align-items: center;
+}
+.alignItemsBaseline{
+  align-items: baseline;
+}
+.alignItemsStretch{
+  align-items: stretch;
+}
+/* align-items */

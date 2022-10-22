@@ -1,0 +1,52 @@
+.tagfield {
+  background: white;
+  border:1px solid grey;
+  padding:0.5rem;
+  font-size:0.8em;
+  cursor:text;
+}
+
+.tag {
+  margin:2px 3px;
+  color:black;
+  background: #eaebed;
+  padding:6px 24px 6px 15px;
+  border-radius:2px;
+  position:relative;
+  display:inline-block;
+  cursor:pointer;
+  max-width:95%;
+  overflow:hidden;
+}
+
+.closer {
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  width:20px;
+  padding:6px 0 0 0;
+  text-align:center;
+  vertical-align:middle;
+  display:inline-block;
+  border-radious: 0 2px 2px 0;
+
+}
+
+.closer:hover {
+  background: rgba(0,0,0,0.18);
+}
+
+.tagno {
+  margin:5px;
+  position:relative;
+  display:inline-block;
+  overflow:auto;
+}
+
+#taginput {
+  border:0 none;
+  width:auto;
+  min-width:300px;
+  max-width:100%;
+}

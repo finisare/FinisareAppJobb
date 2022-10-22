@@ -1,0 +1,1 @@
+<title><?= companyName . ' | '. $data ?></title>
