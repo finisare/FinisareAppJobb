@@ -3,10 +3,10 @@
 
 
 
-define( 'DB_HOST' , 'localhost' );  // 78.135.82.149
-define( 'DB_DATABASE' , 'finsare_DB1' );
-define( 'DB_USERNAME' , 'finsare_User1' );
-define( 'DB_PASSWORD' , '@L=NXjlnz)Yt' );
+define( 'DB_HOST' , 'DB_HOST' );  // 78.135.82.149
+define( 'DB_DATABASE' , 'DB_DATABASE' );
+define( 'DB_USERNAME' , 'DB_USERNAME' );
+define( 'DB_PASSWORD' , 'DB_PASSWORD' );
 define( 'CHARSET' , 'utf8' );
 
 define(
