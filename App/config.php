@@ -3,8 +3,8 @@
 date_default_timezone_set('Europe/Istanbul');
 setlocale( LC_TIME , 'Turkish' );
 
-define( 'link' , 'http://alinedim.com/' );
-define( 'favicon' , 'http://alinedim.com/images/favicon.png' );
+define( 'link' , 'http://domain.com/' );
+define( 'favicon' , 'http://domain.com/images/favicon.png' );
 define(
   'domain' ,
   (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != 'on')
@@ -17,9 +17,9 @@ define(
 
 /******  DataBase --> Information ********/
 define( 'DB_HOST' , 'localhost' );  // 78.135.82.149
-define( 'DB_DATABASE' , 'finsare_DB1' );
-define( 'DB_USERNAME' , 'finsare_User1' );
-define( 'DB_PASSWORD' , '@L=NXjlnz)Yt' );
+define( 'DB_DATABASE' , 'DB_DATABASE' );
+define( 'DB_USERNAME' , 'DB_USERNAME' );
+define( 'DB_PASSWORD' , 'DB_PASSWORD' );
 define( 'CHARSET' , 'utf8' );
 /******  DataBase --> Information ********/
 
@@ -35,17 +35,17 @@ define( 'secondary' , 'Değer Bulunamadı - Yönlendiriliyorsunuz.' );
 
 
 /******  System Mail - Data  ********/
-define( 'systemMailFormName' , 'Finisare - Support' );
-define( 'systemMailHost' , 'mail.finisare.com' );
-define( 'systemMailAccount' , 'support@finisare.com' );
-define( 'systemMailPassword' , '::D6ulW@107' );
+define( 'systemMailFormName' , 'systemMailFormName' );
+define( 'systemMailHost' , 'systemMailHost' );
+define( 'systemMailAccount' , 'systemMailAccount' );
+define( 'systemMailPassword' , 'systemMailPassword' );
 /******  System Mail - Data  ********/
 
 
 
 /******  Constant --> Information ********/
-define( 'dataKey' , DB_PASSWORD );
-define( 'identity' , 'hdi1c33hs9' );
+define( 'dataKey' , dataKey );
+define( 'identity' , 'identity' );
 define( 'dil' , 'TR' );
 setlocale(LC_TIME, strtolower(dil).'_'.dil.'.UTF-8');
 define( 'dateClock' , strftime('%d %B %Y | %A - %T') );
@@ -57,7 +57,7 @@ define( 'space' , '&nbsp;' );
 
 
 /******  App / Project --> Information ********/
-define( 'companyName' , 'Finisare - Dijital Medya' );
+define( 'companyName' , 'companyName' );
 define( 'dirnameProject' , dirname($_SERVER['PHP_SELF']) );
 define( 'dirnameProjectHome' , 'dashboard' );
 
